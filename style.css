@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.menu{
+    background-color:darksalmon;
+    padding: 20px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+.menu ul li a {
+    color:black;
+    font-size: 36;
+    line-height: 1.4;
+    text-decoration: none;
+    padding: 10px 100px;
+    display: inline-block;
+    transition:0.5s;
+}
+.menu ul li a:hover{
+    font-size: 48;
+    background-color:rgb(204, 120, 93);
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color: bisque;
+    line-height: 2
+}
+.aboutcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.cake{
+    float: left;
+    padding-left: 300px;
+}
+.pudding{
+    float: right;
+    padding-right: 300px;
+}
+.about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.about p{
+    clear: left;
+}
+.about a{
+    font-size: 18;
+    color:black;
+    text-decoration: none;
+}
+.home h1{
+    font-size: 64;
+}
+.order h1{
+    font-size: 64;
+}
+.about h1{
+    font-size: 64;
+}
+.contact h1{
+    font-size: 64;
+}
+.order p{
+    font-size: 18;
+}
+.about p{
+    font-size: 18;
+}
+.contact p{
+    font-size: 18;
+}
+.footer p{
+    font-size:12;
+}
+.order a{
+    font-size: 48;
+    color:black;
+    text-decoration: none;
+    background-color: darksalmon;
+    padding: 10px 200px;
+    display: inline-block;
+    transition:0.5s;
+}
+.order a:hover{
+    font-size: 64;
+    text-decoration: none;
+    background-color:rgb(204, 120, 93);
+}
